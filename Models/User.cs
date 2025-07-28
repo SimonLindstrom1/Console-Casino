@@ -15,7 +15,7 @@ namespace Casino.Models
         public int GamesPlayed { get; private set; }
         public int GamesWon { get; private set; }
         public int GamesLost { get; private set; }
-
+         
         public User(string username, decimal startingBalance = 1000)
         {
             if (string.IsNullOrWhiteSpace(username))
